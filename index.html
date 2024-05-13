@@ -2,18 +2,102 @@
 <html>
 
 <head>
-    <tittle>Netflix</tittle>
+    <title>Netflix</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <section class="container principal">
-        <h1>Filmes, séries e muito mais, sem limites.</h1>
-        <img src="Netflix-Logo.jpg" alt="logo da Netflix">
+    <section class="principal container">
+        <div class="container__caixa">
+            <h1 class="container__titulo">Filmes, séries e muito mais, sem limites.</h1>
+            <img src="Netflix-Logo.jpg" alt="" class="container__imagem">
+            <a href="www.alura.com.br" class="container__botao">A partir de R$18,90 ao mês</a>
+            <a href="www.alura.com.br" class="container__botao botao_secundario">Assinar somente a Netflix</a>
+            <p class="container__aviso">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
+        </div>
+    </section>
+
+    <section class="container secundario">
+        <img src="netflix.aparelhos.jpg" alt="Aparelhos com a Netflix aberta" class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Assista do seu jeito</h2>
+            <p class="descricao__texto">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros
+                aparelhos. Assista onde quiser. Cancele quando quiser.</p>
+        </div>
+    </section>
+
+    <section class="container secundario">
+        <div class="container__descricao">
+            <p class="descricao__texto">
+                Assinando, você terá acesso a diversos filmes, séries, documentários, entre outras opções.
+            </p>
+            <a href="www.alura.com.br" class="container__botao secundario__botao" container>Assine a Netflix</a>
+        </div>
+        <img src="entrada.netflix.webp" alt="Criar conta na Netflix" class="secundario__imagem">
+    </section>
+
+    <section class="container secundario">
+        <img src="inicio.netflix.jpeg" alt="Tela inicial de filmes e séries da Netflix"
+            class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Baixe seus filmes e séries</h2>
+            <p class="descricao__texto">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com
+                você, até mesmo sem internet.</p>
+        </div>
     </section>
     
+    <section class="dispositivos">
+        <h2 class="dispositivos__titulo">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="dispositivos__lista">
+            <li>
+                <img src="televisao.png" alt="Ícone de televisão">
+                <h3 class="lista__item">TV</h3>
+            </li>
+            <li>
+                <img src="computador-portatil.png" alt="Ícone de computador">
+                <h3 class="lista__item">Computador</h3>
+            </li>
+            <li>
+                <img src="smartphone.png" alt="Ícone de celular">
+                <h3 class="lista__item">Celular</h3>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="rodape">
+        <img src="Netflix-Logo.jpg" alt="Netflix" class="rodape__logo">
+        <ul class="rodape__lista">
+            <li class="lista__link">
+                <a href="#">Idioma</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Dispositivos compatíveis</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Contrato de assinatura</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Politica de privacidade</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Proteção de dados no Brasil</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Anuncios personalizados</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Ajuda</a>
+            </li>
+        </ul>
+        <p class="rodape__texto">® 2010 Netflix. Todos os direitos reservados. Serviço de
+            assinatura paga. Conteúdo sujeito a disponibilidade.</p>
+        <p class="rodape__texto">Netflix é um serviço pago, baseado em assinatura e sujeito a termos e condições. Netflix é um serviço online de streaming, operada pela empresa de mídia over-the-top. Sede localizada em Los Gatos, Califórnia.</p>
+    </footer>
 </body>
 
 </html>
